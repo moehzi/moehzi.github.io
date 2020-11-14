@@ -51,9 +51,10 @@ ul li a {
 
 .active {
 	border-bottom: 4px solid #A9DBE0;
+	background-color: yellow;
 }
 
-header {
+#header {
 	display: flex;
 	justify-content: space-between;
 	margin: 24px;
@@ -124,17 +125,17 @@ h3 span {
 	margin-right: 24px;
 }
 
-.skills {
+#skills {
 	margin: 144px auto 144px auto;
 	padding-top: 96px;
 }
 
-.skills h1,
-.skills span {
+#skills h1,
+#skills span {
 	font-size: 48px;
 }
 
-.skills h1 span {
+#skills h1 span {
 	font-weight: 300;
 }
 
@@ -163,16 +164,16 @@ h3 span {
 	margin-bottom: 24px;
 }
 
-.projects {
+#projects {
 	padding-top: 96px;
 }
 
-.projects h1,
-.projects span {
+#projects h1,
+#projects span {
 	font-size: 48px;
 }
 
-.projects span {
+#projects span {
 	font-weight: 300;
 }
 
@@ -223,18 +224,18 @@ h3 span {
 	margin-right: 8px;
 }
 
-.contacts {
+#contacts {
 	margin: 134px auto;
 	padding-top: 96px;
 }
 
-.contacts h1,
-.contacts span {
+#contacts h1,
+#contacts span {
 	font-size: 48px;
 	margin-bottom: 24px;
 }
 
-.contacts span {
+#contacts span {
 	font-weight: 300;
 }
 
