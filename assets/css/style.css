@@ -10,6 +10,7 @@
 body {
 	font-family: 'Poppins';
 	list-style: none;
+	color: #585669;
 }
 
 .container {
@@ -39,4 +40,71 @@ ul li a {
 
 .active {
 	border-bottom: 4px solid #A9DBE0;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 8px 0;
+	align-items: flex-end;
+}
+
+.img-header {
+	position: relative;
+}
+
+img.ellipse {
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: 180px;
+}
+
+.txt-profile {
+	font-style: italic;
+	text-align: center;
+}
+
+.txt-profile h2 {
+	font-size: 48px;
+	font-weight: 300;
+}
+
+.txt-profile h1 {
+	font-size: 64px;
+	font-weight: 600;
+
+}
+
+.txt-profile h3 {
+	font-size: 36px;
+	font-weight: 300;
+}
+
+h3 span {
+	font-weight: 700;
+	font-size: 36px;
+}
+
+.btn-primary {
+	padding: 17px;
+	color: #FEFAEE;
+	background-color: #585669;
+	border: none;
+	border-radius: 20px;
+}
+
+.social-media {
+	display: flex;
+	align-items: center;
+	margin-top: 24px;
+}
+
+.social-media button.btn-primary {
+	margin-right: 48px;
+
+}
+
+.social-media img {
+	margin-right: 24px;
 }
