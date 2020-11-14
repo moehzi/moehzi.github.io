@@ -211,7 +211,47 @@ h3 span {
 	margin-right: 8px;
 }
 
+.contacts {
+	margin: 134px auto;
+}
+
+.contacts h1,
+.contacts span {
+	font-size: 48px;
+	margin-bottom: 24px;
+}
+
+.contacts span {
+	font-weight: 300;
+}
+
+.card-contacts {
+	width: 1122px;
+	height: 366px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+	margin: auto;
+	padding-top: 48px;
+}
+
+.soc-med {
+	display: flex;
+	margin: 0 0 24px 24px;
+	align-items: center;
+}
+
+.soc-med a {
+	color: #00BBCE;
+	text-decoration: underline;
+}
+
+.soc-med img {
+	margin-right: 24px;
+}
+
 footer img {
 	width: 100%;
 	height: auto;
+	margin-top: -70px;
 }
