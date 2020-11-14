@@ -18,8 +18,8 @@ body {
 }
 
 .container {
-	width: 1366px;
-	padding: 24px;
+	width: 1336px;
+	padding: 24px 0;
 	margin: auto;
 }
 
@@ -49,8 +49,8 @@ ul li a {
 header {
 	display: flex;
 	justify-content: space-between;
-	margin: 8px 24px;
-	align-items: flex-end;
+	margin: 24px;
+	align-items: center;
 }
 
 .img-header {
@@ -60,12 +60,12 @@ header {
 img.ellipse {
 	position: absolute;
 	z-index: -1;
-	left: 0;
-	top: 180px;
+	left: 80px;
+	top: 250px;
 }
 
 .txt-header {
-	margin-bottom: 36px;
+	margin-top: 100px;
 }
 
 .txt-profile {
@@ -74,18 +74,18 @@ img.ellipse {
 }
 
 .txt-profile h2 {
-	font-size: 48px;
+	font-size: 64px;
 	font-weight: 300;
 }
 
 .txt-profile h1 {
-	font-size: 64px;
+	font-size: 90px;
 	font-weight: 600;
 
 }
 
 .txt-profile h3 {
-	font-size: 36px;
+	font-size: 48px;
 	font-weight: 300;
 }
 
@@ -118,7 +118,7 @@ h3 span {
 }
 
 .skills {
-	margin-top: 190px;
+	margin: 144px auto 144px auto;
 }
 
 .skills h1,
@@ -133,22 +133,82 @@ h3 span {
 .row-skills {
 	display: flex;
 	margin: 64px auto;
+	gap: 64px;
+	justify-content: center;
 }
+
 
 .card-skills {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	padding: 25px 65px 45px 65px;
+	width: 250px;
+	height: 250px;
+	padding: 25px 0 45px 0;
 	background: #FFFFFF;
 	box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 20px;
-	margin: 0 32px;
 }
 
 .card-skills img {
 	margin-bottom: 24px;
+}
+
+.projects h1,
+.projects span {
+	font-size: 48px;
+}
+
+.projects span {
+	font-weight: 300;
+}
+
+.row-projects {
+	margin: 64px auto 64px auto;
+	justify-content: center;
+	display: flex;
+	gap: 64px;
+}
+
+.card-projects {
+	width: 350px;
+	height: 400px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
+
+.card-projects h4 {
+	font-weight: 600;
+	margin-top: 20px;
+	line-height: 36px;
+}
+
+.card-projects h4,
+.card-projects p,
+.button-project {
+	margin-left: 15px;
+}
+
+.card-projects p {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.button-project {
+	margin-top: 18px;
+}
+
+.btn-proj {
+	color: #00BBCE;
+	background-color: #A9DBE0;
+	border-radius: 5px;
+	padding: 1px 26px;
+	line-height: 150%;
+	font-size: 14px;
+	border: none;
+	margin-right: 8px;
 }
 
 footer img {
