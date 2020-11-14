@@ -26,6 +26,13 @@ body {
 nav {
 	display: flex;
 	justify-content: space-between;
+	position: fixed;
+	width: 100%;
+	margin: auto;
+	padding: 24px 48px 24px 48px;
+	box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.25);
+	background-color: #FFFFFF;
+	z-index: 1;
 }
 
 nav ul {
@@ -119,6 +126,7 @@ h3 span {
 
 .skills {
 	margin: 144px auto 144px auto;
+	padding-top: 96px;
 }
 
 .skills h1,
@@ -153,6 +161,10 @@ h3 span {
 
 .card-skills img {
 	margin-bottom: 24px;
+}
+
+.projects {
+	padding-top: 96px;
 }
 
 .projects h1,
@@ -213,6 +225,7 @@ h3 span {
 
 .contacts {
 	margin: 134px auto;
+	padding-top: 96px;
 }
 
 .contacts h1,
@@ -253,5 +266,5 @@ h3 span {
 footer img {
 	width: 100%;
 	height: auto;
-	margin-top: -70px;
+	margin-top: -180px;
 }
