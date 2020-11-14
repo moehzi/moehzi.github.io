@@ -45,7 +45,7 @@ ul li a {
 header {
 	display: flex;
 	justify-content: space-between;
-	margin: 8px 0;
+	margin: 8px 24px;
 	align-items: flex-end;
 }
 
@@ -58,6 +58,10 @@ img.ellipse {
 	z-index: -1;
 	left: 0;
 	top: 180px;
+}
+
+.txt-header {
+	margin-bottom: 36px;
 }
 
 .txt-profile {
@@ -107,4 +111,9 @@ h3 span {
 
 .social-media img {
 	margin-right: 24px;
+}
+
+footer img {
+	width: 100%;
+	height: auto;
 }
