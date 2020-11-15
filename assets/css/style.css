@@ -121,6 +121,11 @@ h3 span {
 
 }
 
+button.btn-primary a {
+	color: #FEFAEE;
+	text-decoration: none;
+}
+
 .social-media img {
 	margin-right: 24px;
 }
